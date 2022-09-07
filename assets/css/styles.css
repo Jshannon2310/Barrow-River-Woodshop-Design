@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #ccc;
+    font-family: Arial;
+
+}
+
+/* Header */
+
+#name {
+    float: left;
+    margin-left: 20px;
+    font-size: 200%;
+    color: #3a3a3a;
+}
+
+#menu {
+    font-size: 105%;
+    letter-spacing: 5px;
+    text-align: right;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+#name, #menu {
+    line-height: 75px;
+}
+
+
+
+
+
+#main-image {
+    background: url('../images/il_1588xN.1419613845_8dbj.webp') no-repeat center center;
+    height: 500px;
+    width: 100%;
+}
