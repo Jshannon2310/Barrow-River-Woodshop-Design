@@ -68,3 +68,54 @@ footer{
     font-size: 150%;
     color: white;
 }
+
+/* proudcts */
+
+.container{
+
+    margin-top: 50px;
+   
+    
+}
+
+h2 {
+    margin:0 50% ;
+}
+
+.img-left {
+    height: 300px;
+    margin-left: 100px;
+}
+
+.p-right{
+    float: right;
+    margin-right: 33%;
+    width: 33%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#second-img {
+
+    margin-top: 50px;
+}
+
+.img-right {
+    height: 300px;
+    float: right;
+    margin-right: 100px;
+
+}
+    
+
+.p-left {
+    float: left;
+    margin-left: 33%;
+    width: 33%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#footer-p {
+    margin-top: 100%;
+}
