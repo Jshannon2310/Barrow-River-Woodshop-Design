@@ -22,12 +22,17 @@ body{
     font-size: 105%;
     letter-spacing: 5px;
     text-align: right;
+   
 }
 
 #menu li {
     display: inline-block;
     margin-right: 30px;
+    color: white;
+}
 
+#menu a {
+    color: white;
 }
 
 #name, #menu {
@@ -61,4 +66,5 @@ footer{
     margin-top: 2%px;
     padding: 5%;
     font-size: 150%;
+    color: white;
 }
