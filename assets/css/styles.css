@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #ccc;
+    background-color: #c5512a;
     font-family: Arial;
 }
 
@@ -15,7 +15,7 @@ body{
     float: left;
     margin-left: 20px;
     font-size: 200%;
-    color: #3a3a3a;
+    color: white;
 }
 
 #menu {
@@ -42,4 +42,23 @@ body{
     background: url('../images/il_1588xN.1419613845_8dbj.webp') no-repeat center center;
     height: 500px;
     width: 100%;
+}
+
+/* footer */
+
+footer{
+    height: 140px;
+}
+#social-media-links {
+    text-align: center;
+} 
+
+#social-media-links > li {
+    display: inline;
+}
+
+#social-media-links i {
+    margin-top: 2%px;
+    padding: 5%;
+    font-size: 150%;
 }
