@@ -14,12 +14,12 @@ body{
 #name {
     float: left;
     margin-left: 20px;
-    font-size: 200%;
+    font-size: 125%;
     color: white;
 }
 
 #menu {
-    font-size: 105%;
+    font-size: 80%;
     letter-spacing: 5px;
     text-align: right;
    
@@ -80,12 +80,14 @@ footer{
     border: 3px solid black;
     margin: 50px 50px 0 50px;
     color: white;
+    background-color: darkred;
    
     
 }
 
 h2 {
-    margin:25px 50% 5px;
+    text-align: center;
+    margin: 30px auto;
 }
 
 .img-left {
@@ -124,7 +126,7 @@ h2 {
     background: url("../images/candel-holder.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 800px;
     color: white;
     position: relative;
 }
@@ -137,16 +139,42 @@ h2 {
     left: 10%;
     position: absolute;
     padding:30px;
-    height: 500px;
+    height: 600px;
 
+}
+.contact-form > h2 {
+    text-align: center;
 }
 
 .text-input {
     width: 100%;
     margin: 5px 0 20px 0;
+    padding: 5px 0 5px 5px;
+    border: 2px solid white;
+}
+
+.text-input:hover {
+    border-color: #d82727;
 }
 
 #county {
     width: 100%;
     margin: 5px 0 20px 0;
+    padding: 5px 0 5px 5px;
+    border: 2px solid white;
+}
+#county:hover {
+    border-color: #d82727;
+}
+
+
+#submit-button {
+    padding: 5px 5px ;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+#submit-button:hover {
+    background-color: white;
+    color: red;
 }
