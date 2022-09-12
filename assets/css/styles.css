@@ -116,3 +116,37 @@ h2 {
     width: 200px;
     margin-top: 20px;
 }
+
+/* contact page */
+
+.contact-section {
+    clear: left;
+    background: url("../images/candel-holder.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    position: relative;
+}
+
+.contact-form {
+    margin:15px 10% 0 0;
+    color:#fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width:400px;
+    left: 10%;
+    position: absolute;
+    padding:30px;
+    height: 500px;
+
+}
+
+.text-input {
+    width: 100%;
+    margin: 5px 0 20px 0;
+}
+
+#county {
+    width: 100%;
+    margin: 5px 0 20px 0;
+}

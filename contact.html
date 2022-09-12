@@ -30,30 +30,32 @@
         </nav>
     </header>
 
-    <section>
-        <form action="">
-            <h2>Contact For More Infromation and Pricing!</h2>
+    <section class="contact-section">
+        
+        <form action="" class="contact-form">
+            <h2>Contact!</h2>
 
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" class="text-input" required >
+            <input type="text" id="fname" name="first_name" class="text-input" placeholder="Your Name" required >
 
-            <label for="lname">Full Name</label>
-            <input type="text" id="lname" name="last_name" class="text-input" required >
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" class="text-input" placeholder="Last name" required >
 
             <label for="email">Emaill Address</label>
-            <input type="email" id="email" name="email_address" class="text-input" required >
+            <input type="email" id="email" name="email_address" class="text-input" placeholder="Email Address" required >
 
             <label for="">County</label>
-            <select name="County" id="county">
-                <option value="">please select one</option>
+            <select name="select-county" id="county"  >
+                <option value="">         </option>
                 <option value="dublin">Dublin</option>
                 <option value="laois">Laois</option>
                 <option value="kildare">kildare</option>
             </select>
 
             <label for="comment">message</label>
-            <input type="text" name="message" id="message">
+            <textarea name="message" id="message" class="text-input" cols="30" rows="10" placeholder="Write somethin"></textarea>
            
+            <input type="submit" name="submit" id="submit-button" >
 
         </form>
     </section>
