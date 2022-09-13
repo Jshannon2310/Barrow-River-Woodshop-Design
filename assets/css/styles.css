@@ -9,6 +9,7 @@ body{
     font-family: Arial;
 }
 
+
 /* Header */
 
 #name {
@@ -20,9 +21,17 @@ body{
 
 #menu {
     font-size: 80%;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-align: right;
    
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: solid 3px darkred;
 }
 
 #menu li {
@@ -55,6 +64,8 @@ body{
 
 footer{
     height: 140px;
+    bottom: 0;
+    width: 100%;
 }
 #social-media-links {
     text-align: center;
@@ -71,52 +82,25 @@ footer{
     color: white;
 }
 
+
 /* proudcts */
 
-.container-1 {
-    position: relative;
-    width: 90%;
-    height: 400px;
-    border: 3px solid black;
-    margin: 50px 50px 0 50px;
-    color: white;
-    background-color: darkred;
-   
-    
+div.gallery {
+    margin: 50px;
+    border: 1px solid white;
+    float: left;
+    width: 180px;
 }
 
-h2 {
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
     text-align: center;
-    margin: 30px auto;
-}
 
-.img-left {
-    position: absolute;
-    height: 250px;
-    left: 125px;
-
-}
-
-.p-right{
-    position: absolute;
-    right: 125px;
-    width: 200px;
-    margin-top: 20px;
-}
-
-.img-right {
-    position: absolute;
-    height: 250px;
-    right: 125px;
-    
-
-}
-
-.p-left {
-    position: absolute;
-    left: 125px;
-    width: 200px;
-    margin-top: 20px;
 }
 
 /* contact page */
@@ -178,3 +162,36 @@ h2 {
     background-color: white;
     color: red;
 }
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    #name {
+        
+        float: none;
+        clear: left;
+        text-align: center;
+        margin: 0;
+        
+    }
+
+    
+    #menu {
+        clear: left;
+        line-height: 30px;
+        text-align: center;
+        margin: 0;
+        }
+
+    #image-container{
+        margin-top: 100px;
+    }
+
+    #main-image {
+        margin-top: 10ppx;
+    }
+
+
+        
+}
+
