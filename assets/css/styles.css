@@ -56,7 +56,20 @@ body{
 }
 
 
+#image-container {
+    position: relative;
+}
 
+#tag-line {
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    bottom: 150px;
+    right: 150px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
 
 
 #main-image {
@@ -65,6 +78,39 @@ body{
     width: 100%;
     opacity: .5;
 
+}
+
+.defuser {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+.welcome {
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.about-us{
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#p-section {
+    margin: 100px;
+    padding: 10px;
+}
+
+#p-about-us {
+    text-align: justify;
+    color: white;
+    letter-spacing: 2px;
+    
+    
 }
 
 /* footer */
