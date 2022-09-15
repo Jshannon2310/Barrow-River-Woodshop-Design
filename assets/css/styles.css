@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +11,7 @@ body{
     font-family: Arial;
     min-height: 100vh; 
     margin: 0; 
-    
+    font-family: Lato, sans-serif;
     display: grid;
     
 }
@@ -62,13 +64,14 @@ body{
 
 #tag-line {
     position: absolute;
-    font-size: 200%;
+    font-size: 225%;
     color: white;
     bottom: 150px;
     right: 150px;
     height: 200px;
     width: 300px;
     text-align: center;
+    font-family: Lato, sans-serif;
 }
 
 
@@ -152,7 +155,7 @@ div.gallery {
 
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 250px;
 }
 
 div.desc {
