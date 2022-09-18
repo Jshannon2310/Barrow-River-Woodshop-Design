@@ -142,7 +142,7 @@ footer{
 }
 
 
-/* proudcts */
+/* proudcts page gallery style code from W3SCHOOLS */
 
 .our-products {
     color: white;
@@ -182,7 +182,7 @@ div.desc {
     color: black;
 }
 
-/* contact page */
+/* contact page  */
 
 .contact-section {
     clear: left;
@@ -242,18 +242,18 @@ div.desc {
     color: red;
 }
 
-/* For medium screens sizes from 950px wide and down */
+/* For medium screens sizes from 1250px wide and down */
+
 
 @media screen and (max-width: 1250px){
 
     div.gallery {
-        width: 25%;
-    
-    }
+        margin-left: 20%;
+    }  
 }
 
 
-
+/* For medium screens sizes from 1250px wide and down */
 
 @media screen and (max-width: 950px){
 
@@ -280,6 +280,22 @@ div.desc {
 
     #main-image {
         margin-top: 10px;
+    }
+
+    #tag-line {
+        font-size: medium;
+        right: 75px;
+    }
+
+    div.gallery {
+        width: 25%;
+        height: auto;
+        margin-left: 33%;
+    
+    }
+
+    .thank-you {
+        font-size: small;
     }
 
 

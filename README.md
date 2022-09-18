@@ -99,6 +99,8 @@
 
 - The Icons in the footer were taken from [Font Awesome] (https://fontawesome.com/icons)
 - The link in the about me section was fron [Youtube] (https://www.youtube.com/watch?v=DCY8f-ckenY)
+- Products page W3SCHOOLS - but i tried to put my own stam on it
+- Love Running project - used the sign up page as a refference for the contact page
 
 ### Media
 - All Photos use are original supplied from Keith Flemming owener of Barrow River Woodshop Design.
