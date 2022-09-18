@@ -11,6 +11,12 @@
 ![Nav Bar](vscode-remote://jshannon231-barrowriver-dp0jvrqwedd.ws-eu64.gitpod.io/workspace/Barrow-River-Woodshop-Design/assets/images/nav-bar.jpg)
 
 
+- __Main Hero Image__
+
+- The landing page has a picture of an original Chopping Board from Barrow River Woodshop Design and soME text to let the user know what the site is about.
+
+![Landing page ](vscode-remote://jshannon231-barrowriver-dp0jvrqwedd.ws-eu64.gitpod.io/workspace/Barrow-River-Woodshop-Design/assets/images/landing-page.jpg)
+
 - __About us__
 
 - __The Footer__
