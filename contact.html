@@ -32,7 +32,7 @@
 
     <section class="contact-section">
         
-        <form action="" class="contact-form">
+        <form action="index.html" class="contact-form">
             <h2>Contact Us:</h2>
 
             <label for="fname">First Name</label>
@@ -45,7 +45,7 @@
             <input type="email" id="email" name="email_address" class="text-input" placeholder="Email Address" required >
 
             <label for="">County</label>
-            <select name="select-county" id="county"  >
+            <select name="select-county" id="county" required >
                 <option value="">         </option>
                 <option value="dublin">Dublin</option>
                 <option value="laois">Laois</option>
@@ -53,9 +53,9 @@
             </select>
 
             <label for="comment">Message</label>
-            <textarea name="message" id="message" class="text-input" cols="30" rows="10" placeholder="Write something"></textarea>
+            <textarea name="message" id="message" class="text-input" cols="30" rows="10" placeholder="Write something" required></textarea>
            
-            <input type="submit" name="submit" id="submit-button" >
+            <input type="submit" name="submit" id="submit-button"  >
 
         </form>
     </section>
