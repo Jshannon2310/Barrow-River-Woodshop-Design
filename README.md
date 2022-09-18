@@ -1,6 +1,8 @@
 # Borrow River Woodshop Design
 
-- Barrow River Design is a site designed for a fammily member whos hobbie is making some beautiful product from wood. It is he dearm to one day make this Hobbie his living and I hope this site might take him a step closer. The idea of this site is to let the browser know a little more about the company and there products and hopefully in crease sales. 
+- Barrow River Design is a site designed for a fammily member whos hobbie is making some beautiful product from wood. It is he dearm to one day make this Hobbie his living and I hope this site might take him a step closer. The idea of this site is to let the browser know a little more about the company and there products and hopefully in crease sales.
+
+![Am I Responsive image](assets/images/am-i-responsive.jpg)
 
 ## Features
 
