@@ -144,7 +144,12 @@ footer{
 
 /* proudcts */
 
-
+.our-products {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 
 div.gallery {
     margin: 65px;
@@ -164,6 +169,17 @@ div.desc {
     color: white;
     background-color: black;
 
+}
+
+.thank-you {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 200%;
+}
+
+.link {
+    color: black;
 }
 
 /* contact page */

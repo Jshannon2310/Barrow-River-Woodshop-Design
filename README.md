@@ -47,11 +47,28 @@
 
 ### Features Left to Implement
 
-### Validator Testing 
+### Validator Testing
+- HTML
+    - No errors found when put through the [W3S HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjshannon2310.github.io%2FBarrow-River-Woodshop-Design%2F)
+
+- CSS
+    - No errors found when put through the [W3S CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjshannon2310.github.io%2FBarrow-River-Woodshop-Design%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+
 
 ### Unfixed Bugs
 
 ## Deployment
+- The site was developed using GITHUB pages. the steps for deployment as as follows:
+    - Open the GitHub repository. 
+    - Navigate to the Settings tab
+    - In the left handside Nav Bar click on Pages
+    - Navigate to the Build and deployment section
+    - In the drop down menu in the Branch Section select MAIN and save
+    - Refresh the page and the webstie URL was displayed
+
+- Here is the website URL: https://jshannon2310.github.io/Barrow-River-Woodshop-Design/
 
 ## Credits
 
